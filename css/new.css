@@ -1,0 +1,104 @@
+.new-program-wrap {
+  padding: 40px;
+  text-align: center;
+}
+.new-program-wrap * {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.55;
+}
+.new-program-wrap h2 {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.new-program-wrap h3 {
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.new-program-wrap p {
+  margin-bottom: 4px;
+}
+.new-program-wrap table {
+  margin: 0 auto 24px;
+}
+.new-program-wrap table td {
+  padding: 5px 25px;
+  border: 2px solid #fff;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #edeff1;
+  color: #3f4f6a;
+}
+.new-program-wrap table td:first-child {
+  padding: 5px 10px;
+  background-color: #ff8562;
+  color: #fff;
+}
+.new-program-wrap table tr:nth-of-type(1) td:not(:first-child) {
+  background-color: #ff8562;
+  font-weight: 700;
+  color: #fff;
+}
+.new-program-wrap table tr:nth-of-type(1) td:first-child {
+  opacity: 0;
+}
+.new-program-wrap table ~ p {
+  font-size: 18px;
+}
+.new-program-arrow {
+  position: relative;
+  display: flex;
+  max-width: 900px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto 32px;
+  padding: 20px 100px 20px 40px;
+  text-align: left;
+  background-color: #edeff1;
+}
+.new-program-arrow span:nth-of-type(1) {
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+.new-program-arrow span:nth-of-type(2) {
+  flex-grow: 1;
+}
+.new-program-arrow span:nth-of-type(2) span {
+  color: #3f4f6a;
+}
+.new-program-arrow:nth-of-type(1) {
+  margin-top: 24px;
+}
+.new-program-arrow:nth-of-type(1) span {
+  color: #ff8562;
+}
+.new-program-arrow:nth-of-type(2) span {
+  color: #3f4f6a;
+}
+.new-program-arrow:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -8px;
+  right: -80px;
+  border-width: 40px;
+  border-color: transparent;
+  border-style: solid;
+  border-left-color: #edeff1;
+}
+#rec43732840 .t-col_4 img {
+  display: block;
+  height: 60px;
+  margin: auto;
+}
+#rec43732840 .t-col_4 img + div {
+  height: 60px;
+  border-bottom: 3px solid #ff8562;
+}
+#rec43732840 .t-col_4 img + div,
+  #rec43732840 .t-col_4 .t-text div {
+    text-align: center;
+  }
